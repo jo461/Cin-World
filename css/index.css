@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(89, 167, 240);
+}
+header{
+    border: 50px rgb(123, 125, 128) solid;
+}
+#films{
+    border: 1px rgb(123, 125, 128) solid;
+    background-color: rgb(123, 125, 128);
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+    line-height: 300px;
+}
+#series{
+    border: 1px rgb(123, 125, 128) solid;
+    background-color: rgb(123, 125, 128);
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+    line-height: 300px;
+}
