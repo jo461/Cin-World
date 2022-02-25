@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="../css/inscription.css" rel="stylesheet">
-    <title>Inscription</title>
+    <title>Connexion</title>
 </head>
 <body>
     <div id="form">
-        <form action="../php/recuperation_info.php" name="login" method="POST">
+    <form action="../php/connexion.php" name="login" method="POST">
         
+       
             <img src="../images/connexion.png" class="img_co" alt="Icône de connexion.">
 
-            <h1> Inscription </h1>
+            <h1> Connexion </h1>
             <label><br /> Nom </label>
 
             <input class="Nom" type="text" name="Nom" placeholder="Votre nom">
@@ -30,17 +31,14 @@
 
             <input class="mdp" type="password" name="Mot_de_passe" placeholder="Votre mot de passe">
 
-            <label> Vérification mot de passe </label>
-
-            <input class="mdp2" type="password" name="Mot_de_passe_verif" placeholder="Vérifiez votre mot de passe"> <!--Attention tu es bête tu n'as pas mis d'alerte pour si les deux mots de passe sont différents-->
-
-            <input class="button" type=submit value="S'inscrire">
-
+            <input class="button" type=submit value="Connexion">
 
             
         
-        </form>
-    <a href="connexion.html" target="_blank"><input class="button" type=submit value="Connexion"></a>
+    </form>
+        <a href="inscription.html" target="blank"><input class="button" type=submit value="S'inscrire"></a>
     </div>
+        
+    
 </body>
 </html>
