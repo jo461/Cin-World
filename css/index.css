@@ -5,6 +5,8 @@ body{
 }
 header{
     border: 50px rgb(123, 125, 128) solid;
+    background-color: rgb(123, 125, 128);
+    font-size: 4em;
 }
 #films{
     border: 1px rgb(123, 125, 128) solid;
@@ -13,6 +15,7 @@ header{
     width: 25%;
     height: 300px;
     line-height: 300px;
+    font-size: 50px;
 }
 #series{
     border: 1px rgb(123, 125, 128) solid;
@@ -21,4 +24,12 @@ header{
     width: 25%;
     height: 300px;
     line-height: 300px;
+    font-size: 50px;   
+}
+#cotes{
+    border: 1px rgb(9, 51, 114) solid;
+    width: 150px;
+    height: 30px;
+    line-height: 25px;
+    background-color: rgb(9, 51, 114);
 }
