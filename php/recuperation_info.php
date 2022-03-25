@@ -16,7 +16,7 @@
         $dbco->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
         //On insère les données reçues
-        $sth = $dbco -> prepare("INSERT INTO goofu(Nom, Prenom, Mail, Mot_de_passe)
+        $sth = $dbco -> prepare("INSERT INTO CineWorld(Nom, Prenom, Mail, Mot_de_passe)
         VALUES ('$Nom', '$Prenom', '$Mail', '$Mot_de_passe')");
         $sth->bindParam(':Nom',$Nom);
         $sth->bindParam(':Prenom',$Prenom);
