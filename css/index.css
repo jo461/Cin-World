@@ -1,12 +1,13 @@
 body{
     margin: 0;
-    text-align: center;
-    background-color: rgb(89, 167, 240);df//
+    background-color: rgb(89, 167, 240);
+    
 }
 header{
     border: 50px rgb(123, 125, 128) solid;
     background-color: rgb(123, 125, 128);
     font-size: 4em;
+    text-align: center;
 }
 #films{
     border: 1px rgb(123, 125, 128) solid;
@@ -16,6 +17,9 @@ header{
     height: 300px;
     line-height: 300px;
     font-size: 50px;
+    text-align: center;
+    position:relative;
+    left: 25%;
 }
 #series{
     border: 1px rgb(123, 125, 128) solid;
@@ -24,12 +28,48 @@ header{
     width: 25%;
     height: 300px;
     line-height: 300px;
-    font-size: 50px;   
+    font-size: 50px; 
+    text-align: center;
+    position: relative;
+    left: 25%;
 }
-#cotes{
-    border: 1px rgb(9, 51, 114) solid;
+.soustitres{
+    border: 1px rgb(2, 28, 66) solid;
     width: 150px;
     height: 30px;
     line-height: 25px;
-    background-color: rgb(9, 51, 114);
+    background-color: rgb(2,28,66);
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    display: inline;
+}
+
+.container img {
+width: 100%;
+height: auto;
+}
+
+.container .btn {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+color: transparent;
+background-color: transparent;
+font-size: 16px;
+padding: 16px 30px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+
+}
+
+.container .btn:hover {
+background-color: black;
+color: white;
 }
