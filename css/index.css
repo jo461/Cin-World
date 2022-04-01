@@ -55,11 +55,9 @@ height: auto;
 
 .container .btn {
 position: absolute;
-top: 50%;
-left: 50%;
 transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
-color: transparent;
+color: turquoise;
 background-color: transparent;
 font-size: 16px;
 padding: 16px 30px;
@@ -72,4 +70,10 @@ border-radius: 5px;
 .container .btn:hover {
 background-color: black;
 color: white;
+}
+
+form{
+    display: inline-block;
+    top: 50%;
+    
 }
