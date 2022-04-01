@@ -1,13 +1,14 @@
 body{
     margin: 0;
-    background-color: rgb(89, 167, 240);
+    background-color: rgb(32, 32, 32);
     
 }
 header{
-    border: 50px rgb(123, 125, 128) solid;
+    border-top: 35px rgb(123, 125, 128) solid;
     background-color: rgb(123, 125, 128);
-    font-size: 4em;
-    text-align: center;
+    color : black;
+    font-size: 100px;
+    font-family:"Impact";
 }
 #films{
     border: 1px rgb(123, 125, 128) solid;
@@ -49,31 +50,68 @@ header{
 }
 
 .container img {
-width: 100%;
-height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .container .btn {
-position: absolute;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-color: turquoise;
-background-color: transparent;
-font-size: 16px;
-padding: 16px 30px;
-border: none;
-cursor: pointer;
-border-radius: 5px;
-
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: turquoise;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .container .btn:hover {
-background-color: black;
-color: white;
+    background-color: black;
+    color: white;
 }
 
-form{
-    display: inline-block;
-    top: 50%;
-    
+.button {
+    background-color: rgb(150, 100, 67);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align:right;
+    position : absolute;
+    top: 5%;
+    right: 3%;
+    font-family:"Impact";
 }
+.button1 {
+    background-color: rgb(150, 100, 67);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align:right;
+    position : absolute;
+    top: 5%;
+    right: 10.5%;
+    font-family:"Impact";
+}
+.button2 {
+    background-color: rgb(150, 100, 67);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align:right;
+    position : absolute;
+    top: 5%;
+    right: 18.5%;
+    font-family:"Impact";
+}
+p{
+    text-align : center;
+} 
+ 
