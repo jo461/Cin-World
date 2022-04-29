@@ -8,7 +8,51 @@ header{
     color : black;
     font-size: 100px;
     font-family:"Impact";
-    }
+}
+.soustitres{
+    border: 1px rgb(0, 102, 255) solid;
+    width: 150px;
+    height: 30px;
+    line-height: 25px;
+    background-color: rgb(0, 102, 255);
+    text-align: center;
+}
+.container {
+    width: 10%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+
+}
+
+.container .btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: turquoise;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.container .btn:hover {
+    background-color: black;
+    color: white;
+}
+.btn{
+    height:10px;
+}
+
 .button {
     background-color: rgb(150, 100, 67);
     border: none;
@@ -21,8 +65,8 @@ header{
     top: 5%;
     right: 3%;
     font-family:"Impact";
-  }
-  .button1 {
+}
+.button1 {
     background-color: rgb(150, 100, 67);
     border: none;
     color: white;
@@ -34,8 +78,8 @@ header{
     top: 5%;
     right: 10.5%;
     font-family:"Impact";
-  }
-  .button2 {
+}
+.button2 {
     background-color: rgb(150, 100, 67);
     border: none;
     color: white;
@@ -47,8 +91,8 @@ header{
     top: 5%;
     right: 18.5%;
     font-family:"Impact";
-  }
-  p{
+}
+p{
     text-align : center;
-  }
+}
   
