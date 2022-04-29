@@ -58,8 +58,8 @@ header{
   }
   .rating {
     direction: rtl;
-    margin-left:0%;
  }
+ 
  .rating a {
     color: #aaa;
     text-decoration: none;
@@ -87,5 +87,26 @@ header{
  }
  p{
     text-align : center;
+    margin-left:0%;
 } 
+th, td{
+   border: 3px solid purple;
+}
+#titre {
+width : 50% ;
+
+}
+#image_affiche {
+  width : 50%;
+  text-align : right;
+  margin-top : 0%;
+}
+#info {
+  width : 50%;
+  text-align : left;
+
+
+}
+
+
  
