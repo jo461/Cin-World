@@ -18,7 +18,7 @@ header{
     text-align: center;
 }
 .container {
-    width: 10%;
+    width: 15%;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -26,9 +26,6 @@ header{
 }
 
 .container img {
-    width: 100%;
-    height: auto;
-
 }
 
 .container .btn {
@@ -38,20 +35,36 @@ header{
     color: turquoise;
     background-color: transparent;
     font-size: 16px;
-    padding: 16px 30px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50px;
 
 }
 
 .container .btn:hover {
     background-color: black;
     color: white;
+    padding: 20px 20px;
+    margin-top: 20px;
 }
 .btn{
-    height:10px;
+    margin-top:20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .button {
     background-color: rgb(150, 100, 67);
