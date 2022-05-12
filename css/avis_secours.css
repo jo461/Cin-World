@@ -49,26 +49,25 @@ header{
     right: 18.5%;
     font-family:"Impact";
   }
-  h2{
-    margin-left:50%;
-    margin-right : 20%;
+  h2{    
     color : rgba(255, 255, 255, 0.815);
-    font-family :Tahoma;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     font-size : 16px;
+    width: 50%;
+    text-align : left;
   }
   .rating {
     direction: rtl;
-    margin-left: 105%;
-    display : flex;
-    justify-content : left;
-    margin-top:0%;
- }
+    text-align: left;
+    width : 50%;
+    margin-bottom : 5px;
+}
  
  .rating a {
     color: #aaa;
     text-decoration: none;
-    font-size: 0.5em;
+    font-size: 3em;
     transition: color .4s;
     right : 45%;
  }
@@ -81,6 +80,7 @@ header{
  }
  h1{
   color:rgb(150, 100, 67);
+
   font-size : 60px;
   margin-left:25%;  
   margin-top: 1px;  
@@ -97,29 +97,32 @@ header{
 .affiche {
     width : 50%;
     text-align: right;
-    border : 5px solid blue; 
+    margin-right : 3%;
 }
 .titre {
+    margin-top:3%;
     width : 50%;
-    text-align: right;
-
+    justify-content : center;
+    margin-left: 17%;
+    
 }
-.rating, .vrai_resume {
-    width : 50%;
-    border : 5px solid blue; 
-
-}
-tout {
-    display: flex;
-    border : 5px solid blue;
-
-}
-.vrai_resume {
-    display: flex;
-    text-align : left;
-    width : 50%;
-    margin-left:5%; 
-}
-div {
+.tout {
     display : flex;
+    align-items: flex-start;
+}
+
+.droite {
+    display : flex;
+    flex-direction: column;
+    width : 50%;    
+}
+#footer {
+    margin-top : 5px;
+    background-color: rgb(123, 125, 128);
+    color : black;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    height : 200px;
+    line-height : 200px;
+    text-align : center;   
 }
