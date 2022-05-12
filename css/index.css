@@ -124,4 +124,8 @@ header{
 p{
     text-align : center;
 } 
- 
+.info {
+    width : 50%;
+    text-align : left;
+    border :2px purple;
+  }

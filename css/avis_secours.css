@@ -8,6 +8,7 @@ header{
     color : black;
     font-size: 100px;
     font-family:"Impact";
+    height : 250px;
     }
 .button {
     background-color: rgb(150, 100, 67);
@@ -58,12 +59,16 @@ header{
   }
   .rating {
     direction: rtl;
+    margin-left: 105%;
+    display : flex;
+    justify-content : left;
+    margin-top:0%;
  }
  
  .rating a {
     color: #aaa;
     text-decoration: none;
-    font-size: 3em;
+    font-size: 0.5em;
     transition: color .4s;
     right : 45%;
  }
@@ -89,33 +94,32 @@ header{
     text-align : center;
     margin-left:0%;
 } 
-th, td{
-   border: 3px solid purple;
+.affiche {
+    width : 50%;
+    text-align: right;
+    border : 5px solid blue; 
 }
-#titre {
-width : 50% ;
+.titre {
+    width : 50%;
+    text-align: right;
 
 }
-#image_affiche {
-  width : 50%;
-  text-align : right;
-  margin-top : 0%;
-  border :2px purple;
+.rating, .vrai_resume {
+    width : 50%;
+    border : 5px solid blue; 
 
 }
-#info {
-  width : 50%;
-  text-align : left;
-  border :2px purple;
+tout {
+    display: flex;
+    border : 5px solid blue;
 
 }
-table {
-  height : 300px;
+.vrai_resume {
+    display: flex;
+    text-align : left;
+    width : 50%;
+    margin-left:5%; 
 }
-.info {
-  width : 50%;
-  text-align : left;
-  border :2px purple;
+div {
+    display : flex;
 }
-
- 
