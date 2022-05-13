@@ -1,17 +1,6 @@
-<!-- Tester si l'utilisateur est connecté -->
-<?php
-    session_start();
-    if(isset($_GET['deconnexion']))
-    { 
-        if($_GET['deconnexion']==true)
-        {  
-            session_unset();
-            header("location:login.php");
-        }
-    }
-    else if($_SESSION['E_Mail'] !== ""){
-        $user = $_SESSION['E_mail'];
-        // Afficher un message
-        echo "<br>Bonjour $user, vous êtes connectés";
-    }
-?>
+<?php        
+session_start();  
+//session_destroy sert à detruire la session  
+session_destroy();  
+echo" Vous êtes  déconnecté";    
+?> 

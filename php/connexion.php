@@ -16,7 +16,11 @@ if (isset($_POST['Mail'], $_POST['Mot_de_passe'])) {
         print "Error!: " . $e->getMessage() . "<br/>";
         die();
     }
-
+    
 }
+else  
+    {  
+    echo "Desolé! connexion echoué";  
+    }  
 // Ajouter des cookies afin que l'utilisateur soit connecter sur tout le site et pas juste sur la page d'accueil.
 ?>
