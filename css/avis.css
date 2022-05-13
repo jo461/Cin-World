@@ -8,6 +8,7 @@ header{
     color : black;
     font-size: 100px;
     font-family:"Impact";
+    height : 250px;
     }
 .button {
     background-color: rgb(150, 100, 67);
@@ -48,17 +49,20 @@ header{
     right: 18.5%;
     font-family:"Impact";
   }
-  h2{
-    margin-left:50%;
-    margin-right : 20%;
+  h2{    
     color : rgba(255, 255, 255, 0.815);
-    font-family :Tahoma;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     font-size : 16px;
+    width: 50%;
+    text-align : left;
   }
   .rating {
     direction: rtl;
- }
+    text-align: left;
+    width : 50%;
+    margin-bottom : 5px;
+}
  
  .rating a {
     color: #aaa;
@@ -76,10 +80,10 @@ header{
  }
  h1{
   color:rgb(150, 100, 67);
+
   font-size : 60px;
   margin-left:25%;  
   margin-top: 1px;  
-  font-family: 'Times Nes Roman', Times, serif;
  }
  img{
      width : 360px;
@@ -90,33 +94,35 @@ header{
     text-align : center;
     margin-left:0%;
 } 
-th, td{
-   border: 3px solid purple;
+.affiche {
+    width : 50%;
+    text-align: right;
+    margin-right : 3%;
 }
-#titre {
-width : 50% ;
-
+.titre {
+    margin-top:3%;
+    width : 50%;
+    justify-content : center;
+    margin-left: 17%;
+    
 }
-#image_affiche {
-  width : 50%;
-  text-align : right;
-  margin-top : 0%;
-  border :2px purple;
-
-}
-#info {
-  width : 50%;
-  text-align : left;
-  border :2px purple;
-
-}
-table {
-  height : 300px;
-}
-.info {
-  width : 50%;
-  text-align : left;
-  border :2px purple;
+.tout {
+    display : flex;
+    align-items: flex-start;
 }
 
- 
+.droite {
+    display : flex;
+    flex-direction: column;
+    width : 50%;    
+}
+#footer {
+    margin-top : 5px;
+    background-color: rgb(123, 125, 128);
+    color : black;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    height : 200px;
+    line-height : 200px;
+    text-align : center;   
+}
