@@ -11,10 +11,10 @@
     <header>
         <p>CineWorld</p>
        <!-- <button class="button">Déconnexion</button>!-->
-        <form action="../html/films.html">
+        <form action="films.php">
             <button class="button" type="submit">Films</button>
         </form>
-        <form action="../html/index.html">
+        <form action="index.php">
             <button class="button1" type="submit">Accueil</button>
         </form>
         <form action="../php/deconnexion.php">
@@ -24,21 +24,21 @@
     <br>
     <br>
     <br>
-    <div id="films"><a href="films.html" title="page film">Films</a></div>
-    <div id="series">Séries</div>
+    <div id="films"><a href="films.php" title="page film">Films</a></div>
+    <div id="series"><a href="series.php" title="page séries">Séries</a></div>
     <br>
     <br>
     <div class="soustitres">Les mieux notés</div>
     <br>
     <div class="container">
         <img src="../images/jurassic_world.jpg" alt="Affiche du film" style="width:165px">
-        <form action="../html/jurassic_world.html">  
+        <form action="../html/jurassic_world.php">  
         <button  class="btn" type="submit">Jurassic World</button>
         </form>
     </div>
     <div class="container">
         <img src="../images/matrix.jpg" alt="Affiche du film" title="Matrix" style="width:172px">
-        <form action="../html/matrix.html">
+        <form action="../html/matrix.php">
             <button  class="btn" type="submit">Matrix</button>
         </form>
     </div>
@@ -50,13 +50,13 @@
     </div>
     <div class="container">
         <img src="../images/harry_potter.jpg" alt="Affiche du film" title="Harry_Potter" style="width: 170px">
-        <form action="../html/harry_potter.html">
+        <form action="../html/harry_potter.php">
             <button class="btn" type="submit">Harry Potter</button>
         </form>
     </div>
     <div class="container">
         <img src="../images/ready_player_one.jpg" alt="Affiche du film" title="Ready_Player_One" style="width:158px">
-        <form action="../html/ready_player_one.html">  
+        <form action="../html/ready_player_one.php">  
         <button id="btn1" class="btn" type="submit">Ready Player One</button>
         </form>
     </div>
