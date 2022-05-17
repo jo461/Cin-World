@@ -27,7 +27,7 @@
         </div>           
         <div class="tout">
             <div class="affiche">
-                <img src="../images/prison_break.jpg" alt="Affiche prison break" title="Prison Break" style="width: 170px">
+                <img src="../images/prison_break.jpg" alt="Affiche prison break" title="Prison Break">
             </div>
             <div class="droite">
                 <div class="rating">

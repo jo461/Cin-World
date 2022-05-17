@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-    <title>The Queen Gambit</title>
+    <title>Plus belle la vie</title>
     <link rel="stylesheet" href="../css/avis.css">
 </head>
 <body>
@@ -23,11 +23,11 @@
         </form>
     </header>
         <div class="titre">
-            <h1>The Queen Gambit</h1>
+            <h1>Matrix</h1>
         </div>           
         <div class="tout">
             <div class="affiche">
-                <img src="../images/the_queen_gambit.jpg" alt="Affiche the Queen's Gambit" title="Queen's Gambit" style="width:195px">
+                <img src="../images/plus_belle_la_vie.jpg" alt="Affiche plus belle la vie" title="Plus belle la vie">
             </div>
             <div class="droite">
                 <div class="rating">
@@ -37,7 +37,11 @@
                     <a href="#2" title="Donner 2 étoiles">☆</a>
                     <a href="#1" title="Donner 1 étoile">☆</a>              
                 </div>  
-                <h2>Cette fiction suit Elisabeth Harmon, une prodige des échecs orpheline, de neuf à vingt-deux ans, dans sa quête pour devenir la meilleure joueuse d'échecs du monde, tout en luttant contre des problèmes émotionnels et une dépendance aux drogues et à l'alcool. L'histoire commence au milieu des années 1950 et se poursuit dans les années 19601.</h2>
+                <h2>Plus belle la vie met en scène jour après jour le quotidien des habitants d’un quartier fictif de Marseille, le Mistral.</br>
+                    Le feuilleton s’organise autour de deux principaux types d’intrigues :</br>
+                    
+                    La vie quotidienne des habitants du Mistral, avec leurs joies et tracas personnels, l’évolution des amours et des amitiés </br>;
+                    Des intrigues policières (parfois teintées de fantastique) dans lesquelles sont impliqués les habitants du Mistral.</h2>
             </div>           
         </div>
     <footer id="footer">

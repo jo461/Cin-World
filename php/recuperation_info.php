@@ -27,7 +27,7 @@
         
         //On renvoie l'utilisateur vers la page de remerciement
         //alert("Merci pour votre inscription!!! Un mail de confirmation vous a été envoyé.");
-        header('Location: ../html/index.html');
+        header('Location: ../html/index.php');
 		die;
     }
     catch(PDOException $e){

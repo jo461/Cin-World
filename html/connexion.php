@@ -29,7 +29,7 @@
             
         
     </form>
-        <a href="inscription.html" target="blank"><input class="button" type=submit value="S'inscrire"></a>
+        <a href="inscription.php" target="blank"><input class="button" type=submit value="S'inscrire"></a>
     </div>
         
     
