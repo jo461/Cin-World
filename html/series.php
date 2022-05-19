@@ -196,5 +196,6 @@
         <img src="../images/breaking_bad.jpg" alt="Affiche Breaking Bad" title="Breaking Bad" style="width:158px">
         <form action="../html/breaking_bad.php">  
         <button  class="btn" type="submit">Breaking Bad</button>
+    </div>
 </body>
 </html>

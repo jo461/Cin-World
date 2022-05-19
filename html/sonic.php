@@ -12,10 +12,10 @@
     <header>
         <p>CineWorld</p>
        <!-- <button class="button">Déconnexion</button>!-->
-        <form action="../html/films.html">
+        <form action="../html/films.php">
             <button class="button" type="submit">Films</button>
         </form>
-        <form action="../html/index.html">
+        <form action="../html/index.php">
             <button class="button1" type="submit">Accueil</button>
         </form>
         <form action="../php/deconnexion.php">
